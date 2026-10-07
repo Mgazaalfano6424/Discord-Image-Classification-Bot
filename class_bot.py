@@ -368,7 +368,7 @@ async def rahasia(ctx):
 
 def get_weather(kota):
 
-    API_KEY = "3def36e1a9189b8fc1334a8a963d1a16"
+    API_KEY = ""
 
     url = "https://api.openweathermap.org/data/2.5/weather"
 
@@ -444,4 +444,4 @@ async def cuaca(ctx, *, kota: str = "Bandung"):
 # =========================
 
 # GANTI dengan TOKEN DISCORD BARU KAMU
-bot.run("MTQ4ODg3NTY1MTYyNzg3NjM5Mg.GoGqGB.MaI64syp_6Zr0efNq822CbssppGYrX2rxpl0fU")
+bot.run("")
